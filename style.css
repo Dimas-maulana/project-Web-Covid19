@@ -1,0 +1,135 @@
+body {
+  position: relative;
+  height: 100vh;
+}
+
+/*navbar*/
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand h1 {
+  color: #645beb;
+  font-weight: 100;
+}
+
+.navbar-brand h1 span {
+  font-weight: 500;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.shape {
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  width: 55%;
+}
+/*akhir navbar*/
+
+/*row*/
+.img-people {
+  height: 270px;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 20px 20px 35px 20px;
+  border-radius: 12px;
+  color: white;
+  position: relative;
+}
+
+.wrap-card {
+  background-color: #ffffff3d;
+  padding: 0 20px 35px 20px;
+  border-radius: 12px;
+  margin-right: 35px;
+}
+
+.shape-card {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.shape-hr {
+  width: 40px;
+  height: 6px;
+  background-color: white;
+  border-radius: 8px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.card h3,
+.card p {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.card p {
+  font-size: 12px;
+}
+
+.bg-card-1 {
+  background: transparent linear-gradient(180deg, #ff8900 0%, #ff5800 100%) 0% 0% no-repeat padding-box;
+}
+.bg-card-2 {
+  background: transparent linear-gradient(180deg, #03e2a5 0%, #00b188 100%) 0% 0% no-repeat padding-box;
+}
+.bg-card-3 {
+  background: transparent linear-gradient(180deg, #6e8aff 0%, #6c63ff 100%) 0% 0% no-repeat padding-box;
+}
+.bg-card-4 {
+  background: transparent linear-gradient(180deg, #e98bff 0%, #b100b1 100%) 0% 0% no-repeat padding-box;
+}
+
+/* carousel */
+.carousel {
+  width: 100%;
+  background: transparent linear-gradient(285deg, #625ae0 0%, #746cff 100%) 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  position: relative;
+  padding: 8px 16px;
+}
+
+.carousel-inner {
+  padding-left: 80px;
+}
+
+.shape-carousel {
+  position: absolute;
+  right: 0;
+  height: 110px;
+  width: 50%;
+  top: 3px;
+}
+
+.carousel-item {
+  color: white;
+}
+
+.carousel-indocators {
+  position: absolute;
+  bottom: -50px;
+}
+
+.carousel-indocators li {
+  height: 10px;
+  background-color: #c4c4c4;
+}
+
+.carousel-indocators li :active {
+  background-color: #746cff;
+  width: 50px;
+}
