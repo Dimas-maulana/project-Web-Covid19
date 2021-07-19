@@ -59,8 +59,8 @@
                             <div class="shape-hr"></div>
                             <img class="shape-card" src="assets/1.png" alt="">
                             <h3>Indonesia</h3>
-                            <p>2,567,630 positif, 2,119,478 </p>
-                            <p>sembuh, 67,355 meninggal</p>
+                            <p>2,911,733 positif, 2,293,875 </p>
+                            <p>sembuh, 74,920 meninggal</p>
                         </div>
                     </div>
                     <div class="col-6 mt-4">
@@ -68,7 +68,7 @@
                             <div class="shape-hr"></div>
                             <img class="shape-card" src="assets/2.png" alt="">
                             <h3>Total Positif</h3>
-                            <p>2,567,630</p>
+                            <p>2,911,733</p>
                             <p>Orang</p>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                             <div class="shape-hr"></div>
                             <img class="shape-card" src="assets/3.png" alt="">
                             <h3>Total Sembuh</h3>
-                            <p>2,119,478</p>
+                            <p>2,293,875</p>
                             <p>Orang</p>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                             <div class="shape-hr"></div>
                             <img class="shape-card" src="assets/4.png" alt="">
                             <h3>Total Meninggal</h3>
-                            <p>67,355</p>
+                            <p>74,920</p>
                             <p>Orang</p>
                         </div>
                     </div>
