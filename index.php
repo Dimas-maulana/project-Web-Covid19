@@ -28,19 +28,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="indo.php">Overview <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="indo.php">National<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="country.php">Global</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="city.php">province</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Prevention</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="https://www.google.com/search?q=covid+19&rlz=1C1CHZN_enID939ID939&oq=covid+19&aqs=chrome..69i57j0i131i433l4j0i3j69i60j69i61.2905j0j1&sourceid=chrome&ie=UTF-8">News</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="country.php">Country</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="city.php">City</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Top Effected</a>
                 </li>
               </ul>
             </div>
@@ -107,17 +107,17 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                       <h5>Dikarenakan kasus Covid19 yang sedang melonjak Diharapkan untuk tetap dirumah saja </h5>
-                      <p>12 Juli 2021</p>
+                      <p><?php echo date('m/j/Y'); ?></p>
                     <!--img src="..." class="d-block w-100" alt="...">-->
                   </div>
                   <div class="carousel-item">
                     <h5>Apabila diharuskan keluar rumah, jangan lupa terapkan protokol kesehatan ketat </h5>
-                    <p>12 Juli 2021</p>
+                    <p><?php echo date('m/j/Y'); ?></p>
                      <!--img src="..." class="d-block w-100" alt="...">-->
                   </div>
                   <div class="carousel-item">
                     <h5>Stay safe dan jangan sakit karena Rumah sakit sudah penuh</h5>
-                    <p>12 Juli 2021</p>
+                    <p><?php echo date('m/j/Y'); ?></p>
                      <!--img src="..." class="d-block w-100" alt="...">-->
                   </div>
                 </div>
